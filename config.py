@@ -28,11 +28,11 @@ class Settings(BaseSettings):
     JWT_ALGORITHM:str = 'HS256'
 
     #TENANT INFO
-    DB_HOST:str = 'tfmdb.database.windows.net'
+    DB_HOST:str = 'localhost'
     DB_PORT:str = '1433'
-    DB_DATABASE:str = 'tfmdb1'
-    DB_USER:str = 'adm'
-    DB_PASSWORD:str = 'Pa$$w0rd01'
+    DB_DATABASE:str = 'master'
+    DB_USER:str = 'sa'
+    DB_PASSWORD:str = 'Pa$$w0rd12'
     
     ERROR_500 = 500
     ERROR_404 = 404
